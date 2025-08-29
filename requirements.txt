@@ -1,0 +1,27 @@
+# Enhanced Sit-up Counter Application Requirements
+# Core Framework
+fastapi>=0.68.0
+uvicorn[standard]>=0.15.0
+
+# Computer Vision and Image Processing
+opencv-python>=4.5.0
+mediapipe>=0.8.0
+numpy>=1.21.0
+
+# Additional Dependencies
+python-multipart>=0.0.5
+aiofiles>=0.7.0
+
+# Development and Documentation (Optional)
+python-docx>=0.8.11
+pytest>=6.0.0
+pytest-asyncio>=0.15.0
+
+# System Dependencies (for Linux)
+# Note: These may need to be installed via system package manager
+# libgl1-mesa-glx
+# libglib2.0-0
+# libsm6
+# libxext6
+# libxrender-dev
+# libgomp1
